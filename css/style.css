@@ -1,0 +1,74 @@
+#idCanvas{
+    background-color: rgb(32, 207, 207);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.bodinho{
+    background-color: rgb(8, 8, 8);
+}
+
+.personagem{
+    width: 50px;
+    height: 50px;
+}
+
+
+.cor{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    color: WHITE;
+ 
+}
+.cores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+  
+}
+
+.telaDeSelecao{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.skin{
+ width: 60px;
+ height: 60px;
+ background-color: white;
+ 
+}
+
+
+h2{
+    color: white;
+    text-align: center;
+    
+}
+
+#img2{
+    cursor: pointer;
+}
+
+img{
+    border: 1px solid black;
+}
+
+#inputColor{
+    background-color: white;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
